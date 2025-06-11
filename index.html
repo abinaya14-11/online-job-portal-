@@ -1,0 +1,416 @@
+
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <style>
+            .menu-bar {
+                background-color: darkmagenta;
+                height: 50px;
+            }
+
+            .navbar {
+                font-size: 1.5rem;
+                color: black;
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-around;
+                color: white;
+            }
+
+            .search {
+                margin-top: 30px;
+            }
+
+            .mm {
+                width: 500px;
+                height: 50px;
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 3rem;
+                font-size: 1.2rem;
+                border-width: 0.5rem;
+            }
+
+            .glass {
+                font-size: 1.5rem;
+            }
+
+            .ll {
+                font-size: 2.4rem;
+                color: white;
+                padding-top: 10px;
+            }
+
+            .navbar button {
+                background-color: burlywood;
+                font-size: 1.1rem;
+                border: 2px solid black;
+            }
+
+            .icon button {
+                background-color: orange;
+                font-size: 1.5rem;
+            }
+
+            .first {
+                background-color: antiquewhite;
+                background-image: url('job.jpg');
+                height: 200px;
+            }
+
+            .center {
+                width: 1500px;
+                height: 300px;
+                border: 1px solid black;
+                display: flex;
+                flex-wrap: nowrap; /* Prevent wrapping */
+                overflow: hidden; /* Hide overflowing content */
+                justify-content: flex-start; /* Align items to the start */
+            }
+
+            .center img {
+                margin-right: 10px;
+            }
+
+            .second {
+                width: 200px;
+                height: 40px;
+                border: 1px solid black;
+            }
+
+            .ss {
+                width: 1300px;
+                height: 130px;
+                border: 1px solid black;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                
+            }
+           .second a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.2rem;
+                display: flex;
+               padding-top: 15px;
+               padding-left: 40px;
+            }
+
+            .kk {
+                font-size: 2rem;
+                color: black;
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                margin-top: -2rem;
+                margin-left: -50rem;
+            }
+            .jj{
+                font-size: 2rem;
+                color: black;
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                margin-top: -3rem;
+                margin-left: 700px;
+                color:
+                
+            }
+            .last{
+                width: 1300px;
+                height: 350px;
+                border: 1px solid black;  
+                  
+            }
+            .ls{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .km{
+                width: 200px;
+                height: 40px;
+                border: 1px solid black;
+                border-radius: 2rem;
+                padding-top:.5rem;
+                
+               
+            }
+            .op{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                gap:1rem;
+            
+            }
+            .footer{
+                background-color:bisque;
+                height: 800px;
+                width:1500px;
+                border: 1px solid black;
+                color:white;
+                padding-left: 50px;
+              
+            }
+            .footer-content {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 20px;
+            }
+            
+            
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="menu-bar">
+            <div class="navbar">
+                Foundit
+                <button><a href="index.html">HOME</a></button>
+                <!-- <button><a href="search.html">Search Job</a></button> -->
+                <button><a href="about.html">About Us</a></button>
+                <button><a href="contact.html">Contact</a></button>
+                <button><a href="account.html">My Account</a></button>
+                <div class="icon">
+                    <button><a href="register.html"><i class="fa-solid fa-user"></i> Register</a></button>
+                    <button><a href="account.html"><i class="fa-regular fa-circle-user"></i> Login</a></button>
+                </div>
+            </div>
+            <br>
+            <center>
+                <div class="first">
+                    <div class="ll">
+                        Over 8,00,000 openings delivered perfectly<br>
+                    </div>
+                    <div class="search">
+                        <div class="glass">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search for jobs, companies, or keywords" class="mm">
+                        </div>
+                    </div>
+                </div>
+            </center>
+            <center>
+                <h1>Future companies</h1>
+                <div class="center" id="slide">
+                    <img src="tcs.jpg" width="250px" height="300px">
+                    <img src="vibro.jpg" width="250px" height="300px">
+                    <img src="vdart.jpg" width="250px" height="300px">
+                    <img src="ibm.jpg" width="250px" height="300px">
+                    <img src="capgemini.jpg" width="250px" height="300px">
+                    <img src="icici.webp" width="250px" height="300px">
+                    <img src="sbi.jpg" width="250px" height="300px">
+                    <img src="infosys.jpg" width="250px" height="300px">
+                    <img src="hdfc.jpg" width="250px" height="300px">
+                </div>
+                <a class="kk" id="prevSlide"><i class="fa-solid fa-less-than"></i></a>
+                <a class="jj" id="nextSlide"><i class="fa-solid fa-greater-than"></i></a>
+            </center><br><br><br>
+           
+            
+            <center>
+                <h2>Popular Categories</h2>
+               
+                <div class="ss">
+                    <div class="second"><a href="hotel.html"><i class="fa-solid fa-house"style="background-color:burlywood"></i>Hotel Works</a></div>
+                    <div class="second"><a><i class="fa-solid fa-building-columns"style="background-color:burlywood" ></i>&nbsp;Banking</a></div>
+                       
+                       
+                        <div class="second"><a><i class="fa-solid fa-address-book"style="background-color:burlywood"></i>&nbsp;HR</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>&nbsp;Sales</a></div>
+                        <div class="second"><a><i class="fa-solid fa-calculator"style="background-color:burlywood"></i>&nbsp;Accounting</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>CustomerSupport</a></div>
+                        <div class="second"><a><i class="fa-solid fa-calendar"style="background-color:burlywood"></i>EventManagement</a></div>
+                        <div class="second"><a><i class="fa-solid fa-globe"style="background-color:burlywood"></i>&nbsp;IT</a></div>
+                        <div class="second"><a><i class="fa-solid fa-database"style="background-color:burlywood"></i>&nbsp;SQL</a></div>
+                        <div class="second"><a><i class="fa-solid fa-palette"style="background-color:burlywood"></i>&nbsp;Graphic Designer</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>DigitalMarketting</a></div>
+                        <div class="second"><a><i class="fa-solid fa-server"style="background-color:burlywood"></i>&nbsp;Oracle</a></div>
+                </div>
+                
+            </center><br><br>
+            <center>
+            <div class="last"id="contentBox">
+<h2>Find job Vacancies By</h2><br>
+<div class="ls"id="options">
+   
+   
+    <a href="#" onclick="showContent('skills')">Skills</a>
+                    <a href="#" onclick="showContent('location')">Location</a>
+                    <a href="#" onclick="showContent('industry')">Industry</a>
+                    <a href="#" onclick="showContent('functions')">Functions</a>
+                    <a href="#" onclick="showContent('roles')">Roles</a>
+                    <a href="#" onclick="showContent('company')">Company</a>
+
+</div>
+<u>_______________________________________________________________________________________________________________________________________________</u>
+<br><br><br><br><br>
+<div id="dynamicContent"></div>
+
+            </div>
+            </center><br><br><br><br>
+            <div class="footer">
+                <center>
+
+                <h2 style="color:black">Categories</h2><br><br>
+                </center>
+                    
+                <div class="ss">
+                    
+                
+                
+                    <div class="second"><a href="hotel.html"><i class="fa-solid fa-house"style="background-color:burlywood"></i>Hotel Works</a></div>
+                    <div class="second"><a><i class="fa-solid fa-building-columns"style="background-color:burlywood" ></i>&nbsp;Banking</a></div>
+                       
+                       
+                        <div class="second"><a><i class="fa-solid fa-address-book"style="background-color:burlywood"></i>&nbsp;HR</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>&nbsp;Sales</a></div>
+                        <div class="second"><a><i class="fa-solid fa-calculator"style="background-color:burlywood"></i>&nbsp;Accounting</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>CustomerSupport</a></div>
+                        <div class="second"><a><i class="fa-solid fa-calendar"style="background-color:burlywood"></i>EventManagement</a></div>
+                        <div class="second"><a><i class="fa-solid fa-globe"style="background-color:burlywood"></i>&nbsp;IT</a></div>
+                        <div class="second"><a><i class="fa-solid fa-database"style="background-color:burlywood"></i>&nbsp;SQL</a></div>
+                        <div class="second"><a><i class="fa-solid fa-palette"style="background-color:burlywood"></i>&nbsp;Graphic Designer</a></div>
+                        <div class="second"><a><i class="fa-solid fa-suitcase"style="background-color:burlywood"></i>DigitalMarketting</a></div>
+                        <div class="second"><a><i class="fa-solid fa-server"style="background-color:burlywood"></i>&nbsp;Oracle</a></div>
+                        
+                    </div><br><br><br>
+                    <center>
+                        <hr>
+                        <h1 style="color:black">contact details</h1><br><br>
+                       <h2 style="color:black"><i class="fa-solid fa-phone"></i>Toll No: +91 80 6985 7811 |Toll Free No: 1800-419-6666</h2><br>
+                    <h2 style="color:black"><i class="fa-solid fa-envelope"></i>info@foundit.in</h2>
+                    <h2 style="color:black">Stay Connected<i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i></h2><br>
+                    <h2 style="color:black">|Security & Fraud|Privacy Notice|Terms of Use|Beware of Fraudsters|Be Safe|Complaints|<br>
+
+                        © 2024 foundit | All rights Reserved</h2>
+                        <hr>
+                    </center>
+                   
+           
+
+
+                    
+
+            </div>
+           
+        </div>
+        
+
+       
+        </body>
+
+        
+        
+        <script>
+            const slideContainer = document.getElementById('slide');
+            const nextButton = document.getElementById('nextSlide');
+            const prevButton = document.getElementById('prevSlide');
+
+            // Scroll forward
+            nextButton.addEventListener('click', () => {
+                slideContainer.scrollBy({
+                    left: 200, // Adjust the scroll amount to match the width of your images
+                    behavior: 'smooth'
+                });
+            });
+
+            // Scroll backward
+            prevButton.addEventListener('click', () => {
+                slideContainer.scrollBy({
+                    left: -200, // Scroll in reverse
+                    behavior: 'smooth'
+                });
+            });
+
+            // Automatic scrolling
+            setInterval(() => {
+                slideContainer.scrollBy({
+                    left: 200, // Automatically scroll forward
+                    behavior: 'smooth'
+                });
+            }, 3000); // Adjust the interval time (3000ms = 3 seconds)
+
+
+
+
+            function showContent(category) {
+                const dynamicContent = document.getElementById('dynamicContent');
+                const options = document.getElementById('options');
+                let content = '';
+                dynamicContent.innerHTML = ''; 
+
+                // Clear existing content before appending new content
+                
+
+                switch (category) {
+                    case 'skills':
+                        content = `
+                            <div class="op">
+                                <div class="km">Python</div>
+                                <div class="km">Java</div>
+                                <div class="km">SQL</div>
+                                <div class="km">AWS</div>
+                                <div class="km">JavaScript</div>
+                                <div class="km">Data Analysis</div>
+                                <div class="km">MS Office</div>
+                                <div class="km">Linux</div>
+                                <div class="km">Project Management</div>
+                                <div class="km">Git</div>
+                                <div class="km">Excel</div>
+                                <div class="km">Docker</div>
+                            </div>`;
+                        break;
+                    case 'location':
+                        content = `
+                            <div class="op">
+                                 <div class="km">Bangalore</div>
+                                <div class="km">New York</div>
+                                <div class="km">London</div>
+                                <div class="km">France</div>
+                                <div class="km">Chennai</div>
+                                <div class="km">Coimbatore</div>
+                                <div class="km">Tokyo</div>
+                                <div class="km">Dubai</div>
+                                <div class="km">America</div>
+                                <div class="km">Brazil</div>
+                                <div class="km">Australia</div>
+                                <div class="km">Spain</div>
+                            </div>`;
+                        break;
+                    case 'industry':
+                        content = '<h3>Industry</h3><p>IT, Finance, Healthcare, Education, etc.</p>';
+                        break;
+                    case 'functions':
+                        content = '<h3>Functions</h3><p>Development, Testing, Management, etc.</p>';
+                        break;
+                    case 'roles':
+                        content = '<h3>Roles</h3><p>Software Engineer, Data Analyst, Project Manager, etc.</p>';
+                        break;
+                    case 'company':
+                        content = '<h3>Company</h3><p>Google, Amazon, Microsoft, IBM, etc.</p>';
+                        break;
+                    default:
+                        content = '<p>Select a category to view details.</p>';
+                }
+                dynamicContent.innerHTML += content;
+            }
+
+            // Initialize contentBox with "Skills" content on page load
+            document.addEventListener('DOMContentLoaded', () => {
+                showContent('skills');
+            });
+
+            
+        </script>
+    
+</html>
